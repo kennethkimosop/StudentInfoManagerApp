@@ -1,4 +1,4 @@
-# StudentInfoManagerApp 📚💰
+# StudentInfoManagerApp 📚
 
 An Android application for managing student personal details and their fee payment status. Developed as a course project for mobile application development.
 

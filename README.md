@@ -1,40 +1,64 @@
-# StudentInfoManagerApp 📚
+# Student Info Manager App 📚
 
-An Android application for managing student personal details and their fee payment status. Developed as a course project for mobile application development.
-
----
-
-## 📱 Features
-
-- Add, update, delete, and view student personal details
-- Record and update fees data
-- Automatically calculate fee balance
-- View a clean summary of student and fee records
-- Restrict invalid input (e.g. invalid phone number or past dates)
-- Modern UI with dynamic buttons and real-time calculations
+An Android application for managing student records and fee payments using **SQLite**.  
+Beginner Designed for educational institutions, or personal projects.
 
 ---
 
-## 🧱 Technologies Used
+## 🎯 Features
 
-- **Java** (Android SDK)
-- **SQLite** (for local database)
-- **Android Studio**
-
----
-
-## 🖼️ Screenshots
-
-> To be updated with screenshots in the `/screenshots` folder:
-
-- ![Main Screen](screenshots/main_screen.png)
-- ![Fee Info Screen](screenshots/fees_screen.png)
-- ![Summary Screen](screenshots/summary_screen.png)
+-  Student registration (Name, Contact, Date of Birth)
+-  Fee entry and live balance calculator
+-  Completion date selection using DatePicker
+-  Summary view for all students (including fees)
+-  SQLite database with two normalized tables:
+  - `Students`
+  - `Fees`
+-  Clean UI with structured layouts
 
 ---
 
-## 🚀 Installation
+## 📸 Screenshots
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/kennethkimosop/StudentInfoManagerApp.git
+| Home | Fees | Summary |
+|------|------|---------|
+| ![Main Screen](screenshots/main_screen.png) | ![Fees Screen](screenshots/fees_screen.png) | ![Summary Screen](screenshots/summary_screen.png) |
+
+---
+
+## 📦 APK Download
+
+👉 [Click here to download the APK](https://github.com/kennethkimosop/StudentInfoManagerApp/releases/latest)
+
+> You can install this APK directly on your Android device (enable unknown sources).
+
+---
+
+## 🧠 Tech Stack
+
+- Java
+- SQLite
+- Android SDK
+- XML Layouts
+
+---
+
+## 📁 Project Structure
+
+```bash
+📁 app/
+ ┣ 📂 java/com/myfirst/sqliteapplication/
+ ┃ ┣ MainActivity.java
+ ┃ ┣ FeesActivity.java
+ ┃ ┣ SummaryActivity.java
+ ┃ ┗ DBHelper.java
+ ┣ 📂 res/
+ ┃ ┣ 📂 layout/
+ ┃ ┃ ┣ activity_main.xml
+ ┃ ┃ ┣ activity_fees.xml
+ ┃ ┃ ┗ activity_summary.xml
+ ┃ ┗ 📂 drawable/
+ ┣ screenshots/
+ ┃ ┣ main_screen.png
+ ┃ ┣ fees_screen.png
+ ┃ ┗ summary_screen.png

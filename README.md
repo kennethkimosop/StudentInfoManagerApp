@@ -22,7 +22,7 @@ Beginner Designed for educational institutions, or personal projects.
 
 | Home | Fees | Summary |
 |------|------|---------|
-| ![Main Screen](screenshots/main_screen.png) | ![Fees Screen](screenshots/fees_screen.png) | ![Summary Screen](screenshots/summary_screen.png) |
+| ![Main Screen](AndroidStudioProjects/SQliteApplication/screenshots/main_screen.png) | ![Fees Screen](AndroidStudioProjects/SQliteApplication/screenshots/fees_screen.png) | ![Summary Screen](AndroidStudioProjects/SQliteApplication/screenshots/summary_screen.png) |
 
 ---
 

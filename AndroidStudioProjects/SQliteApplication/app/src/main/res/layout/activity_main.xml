@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Registration"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texttitle"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:hint="Phone Number (07XXXXXXXX)"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:layout_marginTop="12dp" />
+
+
+    <EditText
+        android:id="@+id/dateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact"
+        android:hint="Date of Birth (DD/MM/YYYY)"
+        android:inputType="date"
+        android:padding="10dp"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateOfBirth"
+        android:text="Insert New Student"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Student Info"
+        android:layout_below="@id/btnInsert"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Student"
+        android:layout_below="@id/btnUpdate"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Student"
+        android:layout_below="@id/btnDelete"
+        android:layout_marginTop="12dp" />
+
+</RelativeLayout>

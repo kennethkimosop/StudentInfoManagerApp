@@ -1,7 +1,7 @@
 # Student Info Manager App 📚
 
 An Android application for managing student records and fee payments using **SQLite**.  
-Beginner Designed for educational institutions, or personal projects.
+Beginner Friendly Designed for educational institutions, or personal projects.
 
 ---
 
